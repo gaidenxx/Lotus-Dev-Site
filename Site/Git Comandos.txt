@@ -1,0 +1,29 @@
+## Git CMD comandos ##
+
+Tenha em mente de sempre ter o cmd aberto para os passos a seguir.
+
+Para localizar a paste de destino do gitlab use os comandos:
+>cd Nome_da_Proxima_Pasta
+
+Quando se encontrar na pasta do destino cheque pelas mudanças feitas:
+>git status
+
+Quando usado o git status haverá duas condições:
+Arquivos vermelhos: Arquivos não adicionados há commits.
+Arquivos verdes: Arrumados e adicionados há commits.
+
+Para adicionar arquivos ao commit:
+>git add . - Para adicionar todos os arquivos de uma vez
+ou
+>git add local/da_Pasta - Para adicionar um por um
+
+Commitando:
+>git commit -m "Texto do seu commit para aparecer no gitLab"
+
+*Lembrando depois do commit use o git status para ver se realmente foram todos colocados no commit de forma correta.
+
+Puxando os arquivos do gitLab antes de commitar:
+>git pull origin master
+
+Enviando os arquivos do gitLab com o commit:
+>git push origin master
